@@ -1,0 +1,206 @@
+ .customerreviews {
+   margin-top: 0.3vh;
+    width: 100%;
+    height: 500px;
+    background-image: url(/src/components/HomeComponents/Customer_Reviews/images/black-and-red-medical-pattern.png);
+    display: flex
+;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+ }
+
+ .reviewshead {
+   display: flex;
+   margin: 10px 0px;
+   justify-content: center;
+   font-size: 60px;
+   padding: 20px 0px;
+   font-family: "Huninn", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: rgb(255, 255, 255);
+ }
+
+ .box {
+   width: 20%;
+   background-color: wheat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px 10px;
+   gap: 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   height: 90%;
+   padding: 10px 0px;
+ }
+
+
+
+ .box:hover {
+   scale: 1.03;
+   transition: all 0.5s;
+   background-color: rgb(214, 197, 164);
+ }
+
+ .titlec {
+   white-space: nowrap;
+   font-size: 22px;
+ }
+
+ .descc {
+   font-size: large;
+   font-family: "Huninn", sans-serif;
+   color: black;
+   padding: 0px 10px;
+ }
+
+ .author {
+   color: black;
+ }
+
+ .morereviews {
+   font-weight: 900;
+   font-family: "Huninn", sans-serif;
+   border-radius: 20px;
+   background-color: red;
+   color: white;
+   width: 180px;
+   height: 40px;
+   position: absolute;
+   right: 70px;
+   margin-top: -170px;
+   cursor: pointer;
+ }
+
+ .morereviews:hover {
+   scale: 1.1;
+   transition: all .2s;
+   background-color: #29c1a2;
+   color: white;
+ }
+
+ .reviewsconatiner {
+   width: 95%;
+   height: 390px;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   gap: 50px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   display: flex;
+   overflow: scroll;
+   padding: 0px 20px;
+ }
+
+
+ @media (min-width: 200px) and (max-width: 525px) {
+   .reviewshead {
+     font-size: 36px;
+   }
+ }
+
+ @media (min-width: 901px) and (max-width: 1600px) {
+   .reviewsconatiner {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .box {
+     height: 100px;
+     width: 100%;
+   }
+
+   .titlec {
+     margin-top: -5px;
+     font-weight: 500;
+   }
+
+   .stars {
+     margin-top: -12px;
+   }
+
+   .descc {
+     margin-top: -12px;
+     font-size: 16px;
+   }
+
+   .author {
+     margin-top: -12px;
+   }
+
+   .customerreviews {
+     height: 600px;
+   }
+ }
+ @media (min-width: 401px) and (max-width: 900px) {
+   .reviewsconatiner {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .box {
+     height: 150px;
+     width: 100%;
+   }
+
+   .titlec {
+     margin-top: -5px;
+     font-weight: 500;
+   }
+
+   .stars {
+     margin-top: -12px;
+   }
+
+   .descc {
+     margin-top: -12px;
+     font-size: 16px;
+   }
+
+   .author {
+     margin-top: -12px;
+     font-size: 14px;
+   }
+
+   .customerreviews {
+     height: 600px;
+   }
+ }
+ @media (min-width: 200px) and (max-width: 401px) {
+   .reviewsconatiner {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .box {
+     height: 200px;
+     width: 100%;
+   }
+
+   .titlec {
+     margin-top: -5px;
+     font-weight: 500;
+     font-size: 19px;
+   }
+
+   .stars {
+     margin-top: -12px;
+   }
+
+   .descc {
+     margin-top: -12px;
+     font-size: 16px;
+   }
+
+   .author {
+     margin-top: -12px;
+     font-size: 14px;
+   }
+
+   .customerreviews {
+     height: 600px;
+   }
+ }

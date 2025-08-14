@@ -1,0 +1,60 @@
+
+.dashloginpage{
+background: linear-gradient(to bottom, black, red);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashlogin-box {
+  margin: 40px 20px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 10px 10px 25px #4a00e0;
+}
+
+.dashlogin-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a00e0;
+}
+
+.dashinput-group {
+  margin-bottom: 15px;
+}
+
+.dashinput-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.dashinput-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccaca;
+  border-radius: 7px;
+}
+.employeeloginbtn{
+  color: white;
+  text-decoration: none;
+}
+button {
+  width: 95%;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  background-color: #4a00e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#9c0c0c;
+  scale: 1.03;
+  transition: all 0.3s ease;
+}

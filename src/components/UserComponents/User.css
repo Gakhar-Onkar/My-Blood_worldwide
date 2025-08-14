@@ -1,0 +1,133 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0px auto;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  padding-top: 40px;
+  border-radius: 20px;
+}
+
+.userprofile {
+  background: linear-gradient(to bottom, black, red);
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 10px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ff0000;
+  padding-bottom: 15px;
+}
+
+.profile-header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blood-type {
+  background-color: #ff0000;
+  color: #ffffff;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.action-buttons a{
+  text-decoration: none;
+  width: 60%;
+  text-align: center;
+}
+
+.profile-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.profile-section h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.red-underline {
+  border-bottom: 2px solid #ff0000;
+  padding-bottom: 3px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.label {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.highlight-red {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.badges-container {
+  display: flex;
+  gap: 10px;
+}
+
+.badge {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-red,
+.btn-black {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-red {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ff0000;
+}
+
+.btn-red:hover {
+  background-color: #cc0000;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}

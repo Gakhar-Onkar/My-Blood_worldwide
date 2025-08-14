@@ -1,0 +1,257 @@
+.Navbar {
+  min-height: clamp(60px, 10vh, 80px);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: clamp(10px, 2vw, 20px) clamp(15px, 3vw, 40px);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.Navbar img {
+  height: clamp(40px, 8vw, 60px);
+  width: auto;
+  object-fit: contain;
+}
+
+.logo {
+  font-size: clamp(20px, 4vw, 28px);
+  font-family: "Huninn", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 2vw, 12px);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logotitle {
+  color: red;
+  white-space: nowrap;
+}
+
+.buylink {
+  color: white;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.Navigations {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Navigations ul {
+  display: flex;
+  list-style: none;
+  gap: clamp(15px, 3vw, 25px);
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-family: "Huninn", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.Navigations ul li {
+  transition: transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.Navigations ul li:hover {
+  transform: scale(1.05);
+}
+
+.Navigations ul li a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: clamp(5px, 1vw, 8px) clamp(8px, 1.5vw, 12px);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.Navigations ul li a:hover {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.Navigations ul li .buylink {
+  color: white;
+  
+}
+
+.Navigations ul li .buylink:hover {
+  color: #29c2a3;
+  background-color: rgba(41, 194, 163, 0.1);
+  border-color: rgba(41, 194, 163, 0.3);
+}
+
+@media (min-width: 1200px) {
+  .Navbar {
+    padding: 15px 60px;
+  }
+  
+  .Navigations ul {
+    gap: 35px;
+    font-size: 20px;
+  }
+  
+  .logo {
+    font-size: 32px;
+  }
+  
+  .Navbar img {
+    height: 70px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .Navbar {
+    padding: 12px 40px;
+  }
+  
+  .Navigations ul {
+    gap: 25px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    padding: 15px 30px;
+    min-height: auto;
+    gap: 15px;
+  }
+  
+  .navlinks {
+    width: 100%;
+  }
+  
+  .Navigations ul {
+    gap: 20px;
+    font-size: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .Navbar img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .Navbar {
+    flex-direction: column;
+    padding: 12px 20px;
+    gap: 12px;
+  }
+  
+  .navlinks {
+    width: 100%;
+  }
+  
+  .Navigations ul {
+    gap: 15px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logo {
+    font-size: 22px;
+  }
+  
+  .Navbar img {
+    height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Navbar {
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 10px;
+    min-height: auto;
+  }
+  
+  .navlinks {
+    width: 100%;
+  }
+  
+  .Navigations ul {
+    gap: 8px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Navigations ul li a {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+  
+  .logo {
+    font-size: 18px;
+    gap: 8px;
+  }
+  
+  .Navbar img {
+    height: 35px;
+  }
+}
+
+@media (max-width: 360px) {
+  .Navbar {
+    padding: 8px 10px;
+    gap: 8px;
+  }
+  
+  .Navigations ul {
+    gap: 5px;
+    font-size: 12px;
+  }
+  
+  .Navigations ul li a {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+  
+  .logo {
+    font-size: 16px;
+    gap: 6px;
+  }
+  
+  .Navbar img {
+    height: 30px;
+  }
+  
+  .logotitle {
+    font-size: 14px;
+  }
+}

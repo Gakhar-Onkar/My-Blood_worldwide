@@ -1,0 +1,98 @@
+.pricing-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  /* background-position: center; */
+  background: linear-gradient(to bottom, black, red);
+}
+
+
+.pricing-container {
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #ff2a2a;
+  text-shadow: 0 0 10px rgba(255, 42, 42, 0.5);
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  color: white;
+}
+
+.pricing-table-container {
+  background-color: rgba(20, 20, 20, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(255, 42, 42, 0.1);
+  color: white;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-table th {
+  background-color: rgba(255, 42, 42, 0.2);
+  color: #ff2a2a;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  border-bottom: 2px solid #ff2a2a;
+}
+
+.pricing-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.pricing-table tr:hover td {
+  background-color: rgba(255, 42, 42, 0.1);
+}
+
+.pricing-table td.free {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.pricing-table td.paid {
+  color: orange;
+  font-weight: bold;
+}
+
+.footer-note {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b4b2b2;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.footer-note p{
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 28px;
+  }
+  
+  .pricing-table th,.pricing-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,168 @@
+ .Hospitals {
+       margin-top: 0.3vh;
+    width: 100%;
+    height: 500px;
+    background-image: url(/src/components/HomeComponents/HospitalGroups/images/black-and-red-light-colors-pattern-first-aid-symbo.png);
+    background-size: contain;
+    color: black;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .hospitalsheading {
+   color: black;
+   padding: 20px 0px;
+   color: white;
+   font-size: 62px;
+   text-align: center;
+   font-family: "Huninn", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+ }
+
+ .hospitallogo{
+  height: 30px;
+  width: 30px;
+ }
+ .boxes {
+   color: black;
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ .hospitalsbox {
+   color: black;
+   gap: 20px;
+   padding: 20px 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   height: 200px;
+
+   width: 20vw;
+   background-color: wheat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 10px;
+   border-radius: 20px;
+ }
+
+ .hospitalsbox:hover {
+   scale: 1.1;
+   transition: all .5s;
+   background-color: rgb(214, 197, 164);
+   cursor: pointer;
+ }
+
+ .hospitalstitle {
+   color: black;
+   white-space: nowrap;
+   font-size: 26px;
+   font-weight: 700;
+ }
+
+ .location {
+   color: black;
+ }
+
+ .boxes {
+   width: 95%;
+   height: 350px;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   gap: 50px;
+   padding: 0px 30px;
+   display: flex;
+   overflow: scroll;
+ }
+
+ .hospitalsbox {
+   width: 20%;
+   background-color: wheat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px 5px;
+   gap: 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   height: 90%;
+   justify-content: center;
+   align-items: center;
+ }
+
+ @media (min-width: 1050px) and (max-width: 1400px) {
+   .hospitalstitle {
+     font-size: 18px;
+   }
+
+   .desch {
+     font-size: 18px;
+   }
+
+   .location {
+     font-size: 12px;
+   }
+ }
+
+ @media (min-width: 850px) and (max-width: 1050px) {
+   .hospitalstitle {
+     font-size: 14px;
+   }
+
+   .desch {
+     font-size: 15px;
+   }
+
+   .location {
+     font-size: 10px;
+   }
+ }
+
+ @media (min-width: 200px) and (max-width: 850px) {
+   .boxes {
+     display: contents;
+     width: 100%;
+     justify-content: center;
+
+   }
+
+   .hospitalsbox {
+     height: 100px;
+     width: 97%;
+     margin: 0px 5px;
+     margin-bottom: 20px;
+   }
+
+   .Hospitals {
+     height: 600px;
+     justify-content: center;
+   }
+
+   .hospitalstitle {
+     font-size: 16px;
+     margin-top: -15px;
+   }
+
+   .desch {
+     font-size: 12px;
+     margin-top: -10px;
+   }
+
+   .location {
+     font-size: 10px;
+     margin-top: -10px;
+   }
+ }
+
+ @media (min-width: 200px) and (max-width: 466px) {
+   .hospitalsheading {
+     font-size: 42px;
+   }
+
+ }

@@ -1,0 +1,162 @@
+.homepage {
+  background: linear-gradient(to bottom, black, red);
+  min-height: 90vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  width: 100vw;
+}
+.welcome{
+  margin-top: 20px;
+  z-index: 2;
+  font-size: 56px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.welcome span{
+  color: red;
+}
+.quote{
+  display: flex;
+  color: white;
+}
+.quote marquee{
+  text-align: center;
+  color: white;
+  transition: all 1s ease;
+  font-size: 24px;
+}
+.supervisor {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  z-index: 2;
+  background-image: url(./images/man-license-trans.webp);
+  background-size: cover;
+}
+
+.supervisordetails {
+  width: 400px;
+  position: absolute;
+  bottom: 150px;
+  right: 450px;
+  font-size: 26px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.supervisordetails>span {
+  color: white;
+}
+
+.supervisordetails>span>span {
+  color: #29c2a3;
+}
+
+.supervisordetails .supervisorname {
+  color: #29c2a3;
+  font-size: 32px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 500;
+}
+
+* {
+  color: black;
+}
+
+@media (min-width: 780px) and (max-width:1050px) {
+  .supervisor {
+    height: 300px;
+    width: 300px;
+  }
+
+  .supervisordetails {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 200px) and (max-width:780px) {
+  .supervisor {
+    height: 200px;
+    width: 200px;
+  }
+
+  .supervisordetails {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    right: 300px;
+    bottom: 115px;
+  }
+}
+
+@media (min-width: 200px) and (max-width:500px) {
+  .supervisor {
+    height: 170px;
+    width: 170px;
+  }
+
+  .supervisordetails {
+    width: 50px;
+    height: 50px;
+    font-size: 11px;
+    right: 240px;
+    bottom: 100px;
+  }
+
+  .supervisordetails .supervisorname {
+    color: #29c2a3;
+    font-size: 26px;
+    font-family: "Huninn", sans-serif;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 200px) and (max-width:420px) {
+  .supervisor {
+    height: 170px;
+    width: 170px;
+    bottom: 38%;
+    right: 27%;
+  }
+
+  .supervisordetails {
+    width: 50px;
+    height: 50px;
+    font-size: 11px;
+    right: 35%;
+    bottom: -100px;
+  }
+
+  .supervisordetails .supervisorname {
+    color: #29c2a3;
+    font-size: 26px;
+    font-family: "Huninn", sans-serif;
+    font-weight: 500;
+  }
+}
