@@ -1,12 +1,13 @@
-# React + Vite
+Overview:
+MyBlood Worldwide is built to simplify and streamline the process of connecting blood donors with recipients. It centralizes donor requests, tracks blood inventory across groups, and notifies relevant authorities when stock falls below a defined threshold — helping ensure timely action during shortages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack:
+Frontend: React (with Vite)
+Styling: Tailwind CSS
+Deployment: Netlify
 
-Currently, two official plugins are available:
+Note: This is a personal/portfolio-level project and not intended for real-world/production use.
+The authority login does not implement real authentication or security checks. You can log in using any username and password — there is no validation against a real backend or credential store. This was a deliberate simplification for demo purposes and should not be used as a reference for secure authentication practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+License:
+This project is for personal/portfolio purposes. Feel free to explore the code, but please note it is not production-ready software.
